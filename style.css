@@ -1,0 +1,82 @@
+  body {
+    background-image: url("D:\Class 23-Sports Website\virat.jpg");
+    font: normal 16px/1.5 "Helvetica Neue", sans-serif; 
+  }
+  ul { 
+    display: flex;
+    align-content: center;
+    justify-content: center;
+  }
+  ul li {
+    list-style: none;
+  }
+  ul li a {
+    text-transform: uppercase;
+    font-weight: bold;
+    color:#fff;
+    font-size:0.876em;
+    text-decoration: none;
+    padding: 1em;
+    white-space: nowrap;
+    letter-spacing: 1.2px;
+  }
+  ul li a:hover {
+    border-bottom: 3px solid #fff;
+  }
+  .header {
+    padding: 20.1px;
+    height: 101vh;
+    background-size: cover;
+    position: relative;;
+  }
+  .header h1 {
+    margin: 0;
+    font-weight: 900;
+    font-size: 3.1rem;
+    text-align: center;
+    color: #fff;
+    margin-bottom: 20px;
+  }
+  .header .content {
+    position: relative;
+    top: 50%;
+    text-align: center;
+  }
+  .flex1 {
+    display: flex;
+    color: white;
+    padding: 100px 150px 150px 100px;
+    position: center;
+     background: linear-gradient(to top, #abdcfd, #c0f0a1);
+  }
+  .flex1 h1 {
+    font-size: 325%;
+    text-align: center;
+  }
+  .flex1 p {
+    font-weight: 400%;
+    font-family: serif;
+    font-size: 150%;
+    text-align: center;
+    padding-left: 20%;
+    padding-right: 20%;
+  }
+  .flex2 {
+    display: flex;
+    color: white;
+    padding: 100px 150px 150px 100px;
+    position: center;
+  }
+  .flex2 h1 {
+    font-size: 325%;
+    text-align: center;
+  }
+  .flex2 p {
+    font-weight: 400%;
+    font-family: serif;
+    font-size: 150%;
+    text-align: center;
+    padding-left: 20%;
+    padding-right: 20%;
+  }
+  
